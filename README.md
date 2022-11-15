@@ -10,6 +10,10 @@ Mobile_Crowdsourced_Test_Report_Prioritization_based_on_Text_and_Image_Understan
   * e2lsh: the locality-sensitive hashing technique (LSH) to map the image feature vector to an index value
   * baseline_bddiv.py & baseline_dmbd19.py & baseline_tse20.py & baseline_ctrp.py: main functions
   * bddiv.py & clustering.py & lsh_approach.py: feature extractor of baseline methods
+  * util_train_data.py：data reading for TextCNN training
+  * get_text_feature.py: generate text vector
+  * get_image_feature.py & util_image_pca.py & get_fusion_feature.py: generate image vector and reduce the dimension to concatenate teogether
+  * birch.py: cluster and prioritize
   * metric.py: the metrics
   * model.py & read_data.py: data reading and report object generation
   * stopwords1893.txt: the stopwords list
